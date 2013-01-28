@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>登录 - Admin - {:C('SITE_TITLE')}</title>
+<include file="inc/header" />
+</head>
+
+<body>
+	<div class="wrapper clear">
+<include file="inc/daohang" />
+		<div class="main" style="min-height:200px;">
+			<form method="post" action="/admin.php/login">
+			  <fieldset>
+			    <legend>管理员登陆</legend>
+			    <label>用户名</label>
+			    <input type="text" placeholder="用户名" name="user" />
+			    <label>密码</label>
+			    <input type="password" placeholder="密码" name="pwd" />
+			    <button type="submit" class="btn">登录</button>
+			  </fieldset>
+			</form>
+		</div>
+		<include file="footer" />
+	</div>
+</body>
+</html>

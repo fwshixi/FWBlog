@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>{$article.title} - {:C('SITE_TITLE')}</title>
+<include file="inc/header" />
+</head>
+<body>
+	<div class="wrapper clear">
+<include file="inc/daohang" />
+		<div class="main">
+			<div class="article">
+				<div class="article-title"><a href="/Blog/{$article.aid}{:C('FW_BLOG_STATIC_SUFFIX')}">{$article.title}</a></div>
+				<div class="article-info">
+					<if condition="isset($article['time'])">
+						{$article.time|date="Y年m月d日 H时i分s秒",###}
+					</if>
+				</div>
+				<div class="article-inner">
+					{$article.inner}
+				</div>
+			</div>
+		</div>
+	</div>
+	<include file="footer" />
+</body>
+</html>

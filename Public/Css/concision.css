@@ -1,0 +1,822 @@
+body {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+table {
+	margin: 0px; padding: 0px;
+}
+tr {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+table {
+	empty-cells: show;
+}
+ul {
+	list-style: none;
+}
+img {
+	border: 0px currentColor; vertical-align: top;
+}
+.cf {
+	zoom: 1;
+}
+.cf::after {
+	height: 0px; line-height: 0; clear: both; font-size: 0px; display: block; visibility: hidden; content: ".";
+}
+.cfl {
+	clear: left;
+}
+.cfr {
+	clear: right;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.cb {
+	border: 0px currentColor !important;
+}
+.cbt {
+	border-top-color: currentColor !important; border-top-width: 0px !important; border-top-style: none !important;
+}
+.cbr {
+	border-right-color: currentColor !important; border-right-width: 0px !important; border-right-style: none !important;
+}
+.cbb {
+	border-bottom-color: currentColor !important; border-bottom-width: 0px !important; border-bottom-style: none !important;
+}
+.cbl {
+	border-left-color: currentColor !important; border-left-width: 0px !important; border-left-style: none !important;
+}
+.cm {
+	margin: 0px !important;
+}
+.cmt {
+	margin-top: 0px !important;
+}
+.cmr {
+	margin-right: 0px !important;
+}
+.cmb {
+	margin-bottom: 0px !important;
+}
+.cml {
+	margin-left: 0px !important;
+}
+.cp {
+	padding: 0px !important;
+}
+.cpt {
+	padding-top: 0px !important;
+}
+.cpr {
+	padding-right: 0px !important;
+}
+.cpb {
+	padding-bottom: 0px !important;
+}
+.cpl {
+	padding-left: 0px !important;
+}
+.fzs {
+	font-size: 14px;
+}
+.fzm {
+	font-size: 18px;
+}
+.fzl {
+	font-size: 24px;
+}
+#think_page_trace {
+	color: rgb(0, 0, 0);
+}
+textarea {
+	overflow: auto; resize: none;
+}
+a {
+	color: rgb(0, 125, 219); text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.header {
+	left: 0px; top: 0px; width: 100%; height: 54px; color: rgb(255, 255, 255); line-height: 54px; position: fixed !important; z-index: 5; background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.wp {
+	margin: 0px auto; padding: 0px 12px; width: auto !important; max-width: 980px !important;
+}
+.contaier {
+	background: rgb(255, 255, 255); height: auto !important; padding-top: 74px; padding-bottom: 18px; min-height: 500px;
+}
+.ident {
+	left: 25px; top: 60px; width: 102px; color: rgb(51, 51, 51); font-size: 92px; filter: alpha(opacity=20); position: fixed !important; z-index: -1; opacity: 0.2;
+}
+.home-left {
+	margin-right: 24px; float: left; max-width: 684px;
+}
+.home-right {
+	width: 270px; float: left;
+}
+.think-fast {
+	background: rgb(30, 83, 122); padding: 6px; color: rgb(255, 255, 255);
+}
+.think-fast dt {
+	padding: 6px; font-size: 30px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.think-fast dt sub {
+	font-size: 18px; margin-left: 8px; vertical-align: bottom; filter: alpha(opacity=60); opacity: 0.6;
+}
+.think-fast dd {
+	padding: 12px 0px; line-height: 2em; opacity: 0.9;
+}
+.think-fast dd a {
+	color: rgb(255, 255, 255); margin-right: 6px;
+}
+.think-slogan {
+	padding-bottom: 12px; font-size: 30px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.think-recome {
+	height: 60px; line-height: 60px; margin-top: -1px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.think-recome .date {
+	font-weight: normal; margin-left: 18px; opacity: 0.4;
+}
+.think-recome a {
+	color: rgb(0, 125, 219); font-size: 28px;
+}
+.think-logo {
+	font-family: Century Gothic,Georgia; font-size: 35px; font-weight: normal; margin-left: -15px; float: left;
+}
+.think-logo img {
+	margin-right: 6px;
+}
+.think-navg {
+	overflow: hidden; margin-left: 25px; float: left;
+}
+.think-navg .title {
+	float: left; position: relative;
+}
+.think-navg .title .show {
+	padding: 0px 15px; color: rgb(255, 255, 255); display: block;
+}
+.think-navg .title:hover .show {
+	text-decoration: none; background-color: rgb(102, 102, 102);
+}
+.think-navg .title:hover .subnavg {
+	display: inline-block;
+}
+.think-navg .subnavg {
+	background: rgb(102, 102, 102); left: 0px; top: 54px; width: 180px; display: none; position: absolute;
+}
+.think-navg .subnavg li {
+	border-top-color: rgb(153, 153, 153); border-bottom-color: rgb(51, 51, 51); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.think-navg .subnavg a {
+	padding: 0px 18px; height: 48px; color: rgb(255, 255, 255); line-height: 48px; display: block;
+}
+.think-navg .subnavg a:hover {
+	text-decoration: none; background-color: rgb(25, 25, 25);
+}
+.think-into {
+	float: right;
+}
+.think-into a {
+	color: rgb(255, 255, 255); margin-left: 18px;
+}
+.think-user {
+	float: right;
+}
+.think-user a {
+	margin: 0px 6px; color: rgb(255, 255, 255);
+}
+.think-user span {
+	margin: 0px 6px; color: rgb(255, 255, 255);
+}
+.think-info .think-more {
+	background: rgb(111, 173, 27); margin: 10px 5px; padding: 2px 10px; width: 80px; height: 28px; color: rgb(255, 255, 255); line-height: 28px; font-size: 16px; font-weight: normal; float: right; display: inline-block;
+}
+.think-more {
+	background: rgb(255, 255, 255); height: 48px; text-align: center; line-height: 48px; font-size: 18px;
+}
+.think-more a {
+	color: rgb(153, 153, 153);
+}
+.think-more a:hover {
+	color: rgb(0, 0, 0);
+}
+.think-loading {
+	background: rgb(0, 0, 0); height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; display: none;
+}
+.think-loading img {
+	margin: 8px 0px 0px 6px; vertical-align: top;
+}
+.think-sort {
+	margin-bottom: 12px; position: relative;
+}
+.think-sort li {
+	margin-right: 12px; float: left;
+}
+.think-sort li a {
+	background: rgb(241, 241, 241); padding: 2px 14px 4px; height: 36px; color: rgb(153, 153, 153); line-height: 36px; display: inline-block;
+}
+.think-sort li a:hover {
+	background: rgb(234, 234, 234); text-decoration: none;
+}
+.think-sort .selected a {
+	color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(51, 51, 51);
+}
+.think-sort .selected a:hover {
+	color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(51, 51, 51);
+}
+.think-sort .extend-add {
+	background: url("./concision_img4.png") no-repeat 8px rgb(86, 174, 244); top: 6px; height: 30px; right: 0px; color: rgb(255, 255, 255); line-height: 30px; padding-right: 12px; padding-left: 30px; display: inline-block; position: absolute;
+}
+.think-sort .extend-add:hover {
+	text-decoration: none; background-color: rgb(21, 132, 217);
+}
+.think-info {
+	padding: 18px 0px; border-bottom-color: rgb(241, 241, 241); border-bottom-width: 3px; border-bottom-style: solid; word-wrap: break-word; background-color: rgb(255, 255, 255);
+}
+.think-info .tihead {
+	margin: 0px auto; width: auto !important; clear: both; max-width: 980px !important;
+}
+.think-info .tibody {
+	margin: 0px auto; width: auto !important; clear: both; max-width: 980px !important;
+}
+.think-info .tifoot {
+	margin: 0px auto; width: auto !important; clear: both; max-width: 980px !important;
+}
+.think-info .tihead {
+	padding-bottom: 12px; border-bottom-color: rgba(0, 0, 0, 0.2) !important; border-bottom-width: 1px !important; border-bottom-style: dashed !important;
+}
+.think-info .tihead h3 a {
+	color: rgb(111, 173, 27); font-size: 28px; font-weight: normal;
+}
+.think-info .tihead h3 a:hover {
+	text-decoration: none; border-bottom-color: rgb(111, 173, 27); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.think-info .tihead .info {
+	height: 24px; line-height: 24px; padding-top: 6px; font-size: 14px; float: left;
+}
+.think-info .tihead .date {
+	margin-right: 18px; opacity: 0.4;
+}
+.think-info .tihead .cate {
+	margin-right: 18px; opacity: 0.9;
+}
+.think-info .tihead .author {
+	margin-right: 18px; opacity: 0.9;
+}
+.think-info .tibody {
+	line-height: 2em; margin-top: 18px; margin-bottom: 18px; opacity: 0.9;
+}
+.think-info .tibody p {
+	padding: 6px 0px; text-indent: 2em;
+}
+.think-info .tibody img {
+	margin: 12px 0px; display: block; max-width: 100%;
+}
+.think-info .tifoot {
+	overflow: hidden; padding-top: 6px; zoom: 1;
+}
+.think-info .tifoot .operate {
+	height: 24px; line-height: 24px; padding-top: 6px; font-size: 12px;
+}
+.think-info .tifoot .operate .show {
+	display: inline-block;
+}
+.think-info .tifoot .operate .item {
+	margin-left: 18px; float: left; position: relative; z-index: 3;
+}
+.think-info .tifoot .share:hover ul {
+	display: block;
+}
+.think-info .tifoot .share ul {
+	background: rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221); left: 0px; top: 24px; display: none; white-space: nowrap; position: absolute;
+}
+.think-info .tifoot .share ul a {
+	padding: 0px 6px; height: 24px; color: rgb(51, 51, 51); line-height: 24px; display: block;
+}
+.think-info .tifoot .share ul a:hover {
+	background: rgb(241, 241, 241);
+}
+.think-info .tifoot .review {
+	background: url("./concision_img1.png") no-repeat 0px 0px; width: 36px; height: 30px; line-height: 9; overflow: hidden; float: right; opacity: 0.2;
+}
+.think-info .tifoot .review:hover {
+	opacity: 0.8;
+}
+.think-donate {
+	
+}
+.think-donate li span {
+	margin-right: 12px;
+}
+.think-donate .money {
+	
+}
+.think-article {
+	padding-bottom: 24px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.think-article .tahead {
+	padding-right: 150px; padding-bottom: 12px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.think-article .tahead .page {
+	top: 6px; text-align: right; right: 0px; font-size: 12px; position: absolute;
+}
+.think-article .page a {
+	background: url("./concision_img3.png") no-repeat; width: 36px; height: 36px; line-height: 9; overflow: hidden; margin-left: 3px; vertical-align: top; display: inline-block;
+}
+.think-article .page .prev {
+	
+}
+.think-article .page .prev:hover {
+	background-position: 0px -95px;
+}
+.think-article .page .next {
+	background-position: 0px -48px;
+}
+.think-article .page .next:hover {
+	background-position: 0px -143px;
+}
+.think-article .page .dir {
+	background-position: 0px -238px;
+}
+.think-article .page .dir:hover {
+	background-position: 0px -190px;
+}
+.think-article .tahead h1 {
+	font-size: 30px; font-weight: normal;
+}
+.think-article .tahead .down {
+	background: rgb(86, 174, 244); margin: 6px 0px 0px 24px; padding: 0px 24px; height: 30px; color: rgb(255, 255, 255); line-height: 30px; font-size: 16px; vertical-align: top; display: inline-block;
+}
+.think-article .tahead .down:hover {
+	text-decoration: none; background-color: rgb(21, 132, 217);
+}
+.think-article .tahead .info {
+	height: 24px; line-height: 24px; padding-top: 6px; font-size: 14px;
+}
+.think-article .tahead .date {
+	margin-right: 18px; opacity: 0.4;
+}
+.think-article .tahead .cate {
+	margin-right: 18px; opacity: 0.9;
+}
+.think-article .tahead .author {
+	margin-right: 18px; opacity: 0.9;
+}
+.think-article .tahead .review {
+	margin-right: 18px;
+}
+.think-article .tahead .down {
+	margin-right: 18px;
+}
+.think-article .tabody {
+	line-height: 2em; margin-top: 18px; margin-bottom: 18px; opacity: 0.9;
+}
+.think-article .tabody p {
+	padding: 6px 0px; text-indent: 2em;
+}
+.think-article .tabody img {
+	margin: 12px 0px; padding: 2px; border: 3px solid rgb(242, 242, 242); display: block; max-width: 96%; background-color: rgb(255, 255, 255);
+}
+.think-info .tibody img {
+	margin: 12px 0px; padding: 2px; border: 3px solid rgb(242, 242, 242); display: block; max-width: 96%; background-color: rgb(255, 255, 255);
+}
+.think-article .tafoot {
+	height: 36px; line-height: 36px; overflow: hidden; padding-top: 10px; border-top-color: rgba(0, 0, 0, 0.2); border-top-width: 1px; border-top-style: dashed; zoom: 1;
+}
+.think-article .tafoot .page {
+	float: right;
+}
+.think-review {
+	padding: 18px 0px;
+}
+.think-review .trhead {
+	height: 30px; line-height: 30px; padding-bottom: 3px; margin-bottom: 12px;
+}
+.think-review .trhead strong {
+	height: 36px; line-height: 36px; font-size: 30px; font-weight: normal; display: inline-block;
+}
+.think-review .trhead strong sub {
+	color: rgb(153, 153, 153); font-size: 18px; font-weight: normal; margin-left: 6px; vertical-align: middle;
+}
+.think-review .review-form {
+	margin-top: 6px;
+}
+.think-review .review-form .textarea {
+	padding: 3px; border: 1px solid rgb(204, 204, 204); margin-bottom: 6px; display: block;
+}
+.think-review .review-form textarea {
+	border: 0px currentColor; width: 100%; height: 48px; line-height: 24px; overflow: auto; font-size: 14px;
+}
+.think-review .review-form .syn {
+	line-height: 32px; font-size: 12px;
+}
+.think-review .review-form .syn a {
+	color: rgb(51, 51, 51); margin-right: 6px;
+}
+.think-review .review-form .strleng {
+	color: rgb(102, 102, 102); line-height: 32px; font-size: 12px; margin-right: 12px; float: right;
+}
+.think-review .review-form .submit {
+	background: rgb(52, 143, 212); border: 1px solid rgb(40, 110, 164); width: 80px; height: 30px; color: rgb(255, 255, 255); font-size: 14px; margin-right: -2px; vertical-align: middle; float: right; cursor: pointer;
+}
+.think-review .review-form .submit:hover {
+	background-color: rgb(40, 110, 164);
+}
+.think-review .review-users {
+	margin-top: 18px;
+}
+.think-review .review-users li {
+	padding: 12px 0px 12px 50px; line-height: 24px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dotted;
+}
+.think-review .review-users .reply-link {
+	margin-left: 12px;
+}
+.think-review .review-users .reply {
+	margin-left: 48px;
+}
+.think-review .review-users .name {
+	color: rgb(0, 125, 219);
+}
+.think-review .review-users .date {
+	color: rgb(153, 153, 153); font-size: 12px; margin-left: 6px;
+}
+.think-review .review-users .more {
+	text-align: center;
+}
+.think-review .review-users .avatar {
+	margin-top: 3px; margin-left: -50px; float: left; display: inline-block;
+}
+.think-review .review-users .avatar img {
+	border: 1px solid rgb(238, 238, 238); width: 36px;
+}
+.think-review .review-users .more a {
+	color: rgb(153, 153, 153); font-size: 18px;
+}
+.think-review .review-users .more a:hover {
+	color: rgb(0, 0, 0);
+}
+.think-review .review-more {
+	padding: 6px 0px; height: 30px; line-height: 30px; font-size: 18px; margin-top: 12px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; display: none;
+}
+.think-login {
+	padding-right: 60px; border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid;
+}
+.think-register {
+	padding-right: 60px; border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid;
+}
+.think-login {
+	margin-top: 36px; min-width: 320px;
+}
+.think-register {
+	margin-top: 36px; min-width: 320px;
+}
+.login-other {
+	margin-top: 36px; min-width: 320px;
+}
+.think-login .head {
+	height: 36px; line-height: 36px;
+}
+.think-register .head {
+	height: 36px; line-height: 36px;
+}
+.login-other .head {
+	height: 36px; line-height: 36px;
+}
+.think-login .head strong {
+	font-size: 30px; font-weight: normal; vertical-align: bottom;
+}
+.think-register .head strong {
+	font-size: 30px; font-weight: normal; vertical-align: bottom;
+}
+.think-login .head span {
+	color: rgb(153, 153, 153); margin-left: 24px;
+}
+.think-register .head span {
+	color: rgb(153, 153, 153); margin-left: 24px;
+}
+.think-login .head a {
+	color: rgb(0, 125, 219); text-decoration: underline; margin-left: 6px;
+}
+.think-register .head a {
+	color: rgb(0, 125, 219); text-decoration: underline; margin-left: 6px;
+}
+.think-login .body {
+	padding-top: 12px;
+}
+.think-register .body {
+	padding-top: 12px;
+}
+.think-login {
+	float: left;
+}
+.think-register {
+	float: left;
+}
+.think-add {
+	margin-top: 20px;
+}
+.think-add .head {
+	height: 36px; line-height: 36px;
+}
+.think-add .head strong {
+	font-size: 30px; font-weight: normal;
+}
+.think-add .body {
+	padding-top: 12px;
+}
+.think-form {
+	
+}
+.think-form th {
+	padding: 6px 0px;
+}
+.think-form td {
+	padding: 6px 0px;
+}
+.think-form th {
+	text-align: left; line-height: 32px; padding-right: 9px; font-weight: normal; vertical-align: top;
+}
+.think-form .text {
+	padding: 3px; border: 1px solid rgb(204, 204, 204); width: 350px; height: 24px; line-height: 24px;
+}
+.think-form .text:focus {
+	border-color: rgb(52, 143, 212); box-shadow: 0px 0px 5px rgba(52,143,212,0.6);
+}
+.think-form .checkbox {
+	margin-right: 6px;
+}
+.think-form .submit {
+	background: rgb(52, 143, 212); padding: 0px 24px; border: 0px currentColor; height: 30px; color: rgb(255, 255, 255); line-height: 21px; font-size: 16px; vertical-align: middle; cursor: pointer;
+}
+.think-form .submit:hover {
+	background-color: rgb(47, 129, 191);
+}
+.think-form select {
+	padding: 3px; border: 1px solid rgb(204, 204, 204); height: 32px;
+}
+.think-form .login .text {
+	padding: 3px; border: 1px solid rgb(204, 204, 204); width: 250px; height: 24px; line-height: 24px;
+}
+.think-form .login .verify {
+	padding: 3px; border: 1px solid rgb(204, 204, 204); width: 150px; height: 24px; line-height: 24px;
+}
+.think-editor {
+	border: 1px solid rgb(204, 204, 204); width: 540px;
+}
+.think-editor .tool {
+	padding: 3px 12px; height: 24px; line-height: 24px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.think-editor .tool a {
+	background: url("./tool.png") no-repeat; width: 24px; height: 24px; line-height: 9; overflow: hidden; margin-right: 6px; display: inline-block;
+}
+.think-editor .tool a:hover {
+	background-color: rgb(234, 234, 234);
+}
+.think-editor .tool .bold {
+	background-position: 8px 5px;
+}
+.think-editor .tool .italic {
+	background-position: 9px -28px;
+}
+.think-editor .tool .under {
+	background-position: 6px -62px;
+}
+.think-editor .tool .code {
+	background-position: 0px -96px;
+}
+.think-editor .tool .link {
+	background-position: 4px -162px;
+}
+.think-editor .tool .upload {
+	background-position: 2px -130px;
+}
+.think-editor .enter {
+	margin: 3px;
+}
+.think-editor .enter textarea {
+	padding: 0px; border: 0px currentColor; width: 100%; height: 180px; resize: none;
+}
+.login-other {
+	padding-left: 60px; margin-left: -1px; border-left-color: rgb(221, 221, 221); border-left-width: 1px; border-left-style: solid; float: left; display: inline;
+}
+.login-other .head strong {
+	color: rgb(153, 153, 153); font-weight: normal;
+}
+.other-account {
+	
+}
+.other-account li {
+	margin: 6px 0px;
+}
+.other-account li a {
+	background: rgb(238, 238, 238); width: 240px; height: 36px; text-align: center; line-height: 36px; display: inline-block;
+}
+.think-info .prettyprint {
+	background: rgb(255, 255, 255); padding: 0px;
+}
+.think-info .linenums {
+	color: rgb(43, 165, 216);
+}
+.bgc0 {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.bgc0 a {
+	color: rgb(0, 125, 219);
+}
+.bgc1 {
+	color: rgb(255, 255, 255); background-color: rgb(6, 64, 108);
+}
+.bgc1 a {
+	color: rgb(255, 255, 255);
+}
+.bgc2 {
+	color: rgb(255, 255, 255); background-color: rgb(52, 143, 212);
+}
+.bgc2 a {
+	color: rgb(255, 255, 255);
+}
+.bgc3 {
+	color: rgb(0, 0, 0); background-color: rgb(255, 248, 201);
+}
+.bgc3 a {
+	color: rgb(0, 0, 0);
+}
+.bgc4 {
+	color: rgb(255, 255, 255); background-color: rgb(76, 13, 9);
+}
+.bgc4 a {
+	color: rgb(255, 255, 255);
+}
+.think-cate .head {
+	height: 36px; line-height: 36px; margin-top: 36px;
+}
+.think-cate .head strong {
+	font-size: 30px; font-weight: normal;
+}
+.think-cate .body {
+	margin-top: -12px;
+}
+.think-item {
+	padding: 6px 0px;
+}
+.think-item li {
+	height: 48px; line-height: 48px; overflow: hidden;
+}
+.think-item .title {
+	margin-right: 12px;
+}
+.think-item .title a {
+	color: rgb(51, 51, 51); font-size: 24px;
+}
+.think-item .status {
+	color: blue;
+}
+.think-item .date {
+	color: rgb(153, 153, 153); margin-left: 12px;
+}
+.think-item .sort {
+	color: rgb(153, 153, 153); margin-left: 12px;
+}
+.think-item .down {
+	background: url("./concision_img3.png") no-repeat -7px -319px; width: 22px; height: 22px; line-height: 9; overflow: hidden; margin-top: 15px; margin-left: 18px; vertical-align: top; display: inline-block;
+}
+.think-item .down:hover {
+	background-position: -7px -286px;
+}
+.think-operate {
+	
+}
+.think-crumb {
+	height: 36px; color: rgb(51, 51, 51); line-height: 36px; font-size: 12px; margin-left: -3px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.think-crumb a {
+	margin: 0px 3px; color: rgb(51, 51, 51);
+}
+.think-crumb b {
+	color: rgb(51, 51, 51); font-weight: normal; margin-left: 3px;
+}
+.footer {
+	padding: 6px 0px; height: 24px; color: rgb(102, 102, 102); line-height: 24px; overflow: hidden; clear: both; font-size: 14px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; zoom: 1;
+}
+.footer .navg {
+	float: left;
+}
+.footer .navg a {
+	color: rgb(102, 102, 102); margin-left: 12px;
+}
+.footer .copy {
+	float: left;
+}
+.footer .copy sup {
+	font-weight: normal;
+}
+.footer .links {
+	float: right;
+}
+.footer .links a {
+	color: rgb(102, 102, 102); margin-left: 12px;
+}
+.verifyimg {
+	margin-top: 9px;
+}
+.think-article table {
+	background: 0px 0px rgb(102, 102, 102); margin: 10px 0px;
+}
+.think-article table th {
+	background: 0px 0px rgb(102, 102, 102); text-align: left; color: rgb(255, 255, 255); padding-right: 10px; padding-left: 10px;
+}
+.think-article td {
+	background: 0px 0px rgb(255, 255, 255); padding-right: 10px; padding-left: 10px; cursor: pointer;
+}
+.think-article .add td {
+	background: 0px 0px rgb(239, 239, 239);
+}
+.think-article table .hover td {
+	
+}
+.think-bug {
+	background: rgb(30, 83, 122); margin: 15px 10px; padding: 15px; color: white;
+}
+.think-page {
+	top: 6px; text-align: right; right: 0px; font-size: 12px; position: absolute;
+}
+.think-page a {
+	background: url("./concision_img3.png") no-repeat; width: 36px; height: 36px; line-height: 9; overflow: hidden; margin-left: 3px; vertical-align: top; display: inline-block;
+}
+.think-page .prev {
+	
+}
+.think-page .prev:hover {
+	background-position: 0px -95px;
+}
+.think-page .next {
+	background-position: 0px -48px;
+}
+.think-page .next:hover {
+	background-position: 0px -143px;
+}
+.think-page .dir {
+	background-position: 0px -238px;
+}
+.think-page .dir:hover {
+	background-position: 0px -190px;
+}
+.think-coop {
+	padding: 5px 0px; text-align: left; clear: both; word-wrap: break-word; background-color: rgb(255, 255, 255);
+}

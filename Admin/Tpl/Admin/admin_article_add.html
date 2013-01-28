@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<include file="inc/header"/>
+<script>
+window.UEDITOR_HOME_URL = "/Public/ueditor/";
+</script>
+<import type="js" file="ueditor.editor_config_new" />
+<import type="js" file="ueditor.editor_all" />
+	
+</head>
+<body class="admin">
+	<div class="legend">增加文章</div>
+	<form method="post" action="/admin.php/admin/admin_article_add/">
+		<input type="text" name="title" class="block admin-edit-title"/>
+<textarea class="span10" rows="20" name="inner" id="editor">
+
+</textarea>
+<div class="clear"></div>
+		<input type="submit" value="提交" class="btn fw-submit" name="t"/>
+	</form>
+<script type="text/javascript">
+$(document).ready(function(){
+    UE.getEditor('editor');
+});
+</script>
+</body>
+</html>
