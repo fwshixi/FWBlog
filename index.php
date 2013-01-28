@@ -4,4 +4,5 @@
 //+---------------------------------
 define ('APP_NAME','FWBlog');
 define ('APP_PATH','./FWBlog/');
+define ('APP_DEBUG', true);
 require './ThinkPHP/ThinkPHP.php';

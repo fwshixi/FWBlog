@@ -18,7 +18,7 @@
 			<foreach name="Article" item="info">
 				<tr>
 					<td>{$info.aid}</td>
-					<td>{$info.title}</td>
+					<td><a href="/blog/{$info.aid}" target="_blank">{$info.title}</a></td>
 					<td><a href="{:U('admin/admin_article_edit',array('aid'=>$info['aid']))}">编辑</a> <a href="{:U('admin/admin_article_delete',array('aid'=>$info['aid']))}">删除</a></td>
 				</tr>
 			</foreach>

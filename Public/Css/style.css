@@ -211,3 +211,20 @@ a{
 .fw-nav li{
 	background:#FFF;
 }
+.form-login{
+	background:#FFF;
+	border:1px solid #666;
+	border-radius:4px;
+	margin:10px auto 10px;
+	padding:5px 10px 5px;
+	width:300px;
+}
+.hidden{
+	display:none;	
+}
+.transition{
+	-moz-transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}

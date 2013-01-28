@@ -1,9 +1,10 @@
 		<div class="admin-left">
 			<ul class="nav nav-tabs nav-stacked fw-nav">
-			  <li><a href="/admin.php/admin/admin_index" target="admin"><i class="icon-home"></i> 首页</a></li>
-			  <li><a href="/admin.php/admin/admin_article" target="admin"><i class="icon-list"></i> 文章列表</a></li>
-			  <li><a href="/admin.php/admin/admin_article_add" target="admin"><i class="icon-list"></i> 发表文章</a></li>
-			  <li><a href="/About/"><i class="icon-tags" target="admin"></i> 关于</a></li>
-			  <li><a href="/admin.php/login/logout/1"><i class="icon-tags"></i> 登出</a></li>
+			  <li><a href="{:U('admin/admin_index')}" target="admin"><i class="icon-home"></i> 首页</a></li>
+			  <li><a href="{:U('admin/admin_article')}" target="admin"><i class="icon-list"></i> 文章列表</a></li>
+			  <li><a href="{:U('admin/admin_article_add')}" target="admin"><i class="icon-list"></i> 发表文章</a></li>
+			  <li><a href="{:U('admin/admin_cache')}" target="admin"><i class="icon-list"></i> 缓存管理</a></li>
+			  <li><a href="/" target="_blank"><i class="icon-home"></i> 博客首页</a></li>
+			  <li><a href="{:U('admin/login?logout=1')}"><i class="icon-tags"></i> 登出</a></li>
 			</ul>
 		</div>

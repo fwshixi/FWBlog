@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<include file="inc/header"/>
+</head>
+<body class="admin">
+	<div class="legend">缓存管理</div>
+	<div class="alert alert-info">
+		数据无价 谨慎操作。
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+	</div>
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>名称</th>
+				<th>文件名</th>
+				<th>链接</th>
+			</tr>
+		</thead>
+		<tbody>
+			<foreach name="dirList" item="info" key="name">
+				<foreach name="info" item="infoI">
+				<tr>
+					<td>{$name}</td>
+					<td>{$infoI}</td>
+					<td>
+			                <a class="btn btn-danger" href="/admin.php/admin/admin_cache_delete?dir={$infoI}">删除 
+			                </a>
+					</td>
+				</tr>
+				</foreach>
+			</foreach>
+		</tbody>
+	</table>
+</body>
+</html>

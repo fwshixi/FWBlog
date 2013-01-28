@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>登录 - {:C('SITE_TITLE')}</title>
+<include file="inc/header" />
+<script>
+$(document).ready(function(){
+	$('#form-login-submit').popover();
+	$('a#form-login-submit').click(
+		function (){
+			$("#form-login-progress").fadeToggle();
+			$("#form-login-progress .bar").css("width","80%");
+			$.post(
+				'/User/Login/',
+				{
+					user:$('input#form-login-user').val(),
+					pwd:$('input#form-login-pwd').val()
+				},
+			    function(data,status){
+					if (status="success"){
+						if (data.status===1){
+							showMessage(data.message,data.title);
+							$("#form-login-progress .bar").css("width","100%");
+							setTimeout(function (){location.href=data.jump;},1000);
+							return;
+						}
+						else{
+							showMessage(data.message,data.title);
+						}
+					}
+					else{
+						showMessage("登录失败！请检查网络连接","登录失败！");
+					}
+					setTimeout(function (){$("#form-login-progress .bar").css("width","0%");$("#form-login-progress").fadeToggle(800);},2000);
+				}
+			);
+		}
+	);
+	function showMessage(message,title){
+			$("#form-login-submit").attr("data-original-title",title);
+			$("#form-login-submit").attr("data-content",message);
+			$('#form-login-submit').popover('show');
+	}
+});
+</script>
+</head>
+<body>
+<div class="form-login transition">
+<div id="form-login-result" class="hidden"></div>
+	<form>
+		<fieldset>
+			<legend>用户登陆</legend>
+			<label>用户名</label>
+			<input type="text" placeholder="用户名" name="user" id="form-login-user"/>
+			<label>密码</label>
+			<input type="password" placeholder="密码" name="pwd" id="form-login-pwd"/>
+			<a class="btn" id="form-login-submit">登录</a>
+		</fieldset>
+	</form>
+	<div id="form-login-progress" class="progress progress-striped active hidden" style="width:290px;">
+		<div class="bar" style="width: 0%;"></div>
+	</div>
+</div>
+</body>
+</html>

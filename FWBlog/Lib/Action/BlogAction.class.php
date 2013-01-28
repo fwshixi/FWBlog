@@ -35,6 +35,9 @@ class BlogAction extends Action{
 				->order('`aid` DESC')
 				->limit($limit_a.',20')
 				->select();
+		$pages=$this->model->field('COUNT(*) AS `page`')->find();
+		$pages=$pages['page'];
+		$this->pages=ceil(intval($pages)/20);
 		$this->display();
 	}
 	/**
